@@ -38,7 +38,6 @@ class MainActivity : ComponentActivity() {
         application.applicationComponent.inject(this)
         setContent {
             AndroidFetchTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
