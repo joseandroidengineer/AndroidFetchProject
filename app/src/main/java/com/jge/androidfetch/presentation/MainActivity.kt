@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
                                                 top = 8.dp,
                                                 bottom = 8.dp
                                             ),
-                                            text = "Name: "+ item.name+ " ID: "+item.id + " ListID "+item.listId)
+                                            text = "Name: "+ item.name+ " ID: "+item.id + " ListID: "+item.listId)
                                         Divider(modifier = Modifier
                                             .fillMaxWidth()
                                             .background(color = Color.LightGray))
